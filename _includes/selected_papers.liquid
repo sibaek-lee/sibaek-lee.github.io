@@ -1,0 +1,108 @@
+<style>
+.badge.badge-kw-1 { background-color: #7dd3fc !important; color: #0c4a6e !important; } /* Sky Blue */
+.badge.badge-kw-2 { background-color: #94a3b8 !important; color: #1e293b !important; } /* Slate */
+.badge.badge-kw-3 { background-color: #6ee7b7 !important; color: #064e3b !important; } /* Emerald */
+.badge.badge-kw-4 { background-color: #fbbf24 !important; color: #451a03 !important; } /* Amber */
+.badge.badge-kw-5 { background-color: #fb7185 !important; color: white !important; } /* Rose */
+.badge.badge-kw-6 { background-color: #818cf8 !important; color: white !important; } /* Indigo */
+.badge.badge-kw-7 { background-color: #fb923c !important; color: white !important; } /* Orange */
+.badge.badge-kw-8 { background-color: #a78bfa !important; color: white !important; } /* Violet */
+.badge.badge-kw-9 { background-color: #f472b6 !important; color: white !important; } /* Pink */
+.badge.badge-kw-10 { background-color: #5eead4 !important; color: #0f766e !important; } /* Teal */
+.badge.badge-kw-11 { background-color: #a8a29e !important; color: #292524 !important; } /* Stone */
+.badge.badge-kw-12 { background-color: #99f6e4 !important; color: #0d9488 !important; } /* Cyan */
+.badge.badge-kw-13 { background-color: #bef264 !important; color: #365314 !important; } /* Lime */
+.badge.badge-kw-14 { background-color: #f87171 !important; color: white !important; } /* Red */
+.badge.badge-kw-15 { background-color: #38bdf8 !important; color: white !important; } /* Light Blue */
+.badge.badge-kw-16 { background-color: #d4d4d8 !important; color: #27272a !important; } /* Zinc */
+.badge.badge-kw-17 { background-color: #e879f9 !important; color: #581c87 !important; } /* Fuchsia */
+.badge.badge-kw-18 { background-color: #a3e635 !important; color: #3f6212 !important; } /* Green */
+.badge.badge-kw-19 { background-color: #fcd34d !important; color: #78350f !important; } /* Yellow */
+.badge.badge-kw-20 { background-color: #6366f1 !important; color: white !important; } /* Deep Indigo */
+
+.keyword-filter-btn {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.85em;
+  padding: 0.4em 0.8em;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+.keyword-filter-btn:hover {
+  opacity: 0.8;
+  transform: translateY(-1px);
+}
+
+.keyword-filter-btn.active {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  font-weight: bold;
+}
+
+.keywords .badge {
+  font-size: 0.75em;
+  padding: 0.3em 0.6em;
+  margin-bottom: 0.25rem;
+  display: inline-block;
+}
+
+.keyword-filters {
+  line-height: 1.8;
+  margin-top: 1rem !important;   /* Selected Publications와 키워드 간격 */
+  margin-bottom: 1rem !important; /* 키워드와 논문 리스트 간격 */
+}
+</style>
+
+<!-- Keyword Filter Buttons -->
+<div class="keyword-filters" style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
+  <span class="badge badge-light keyword-filter-btn active mr-1" data-filter="all">Show all</span>
+  <span class="badge badge-kw-1 keyword-filter-btn mr-1" data-filter="nerf">NeRF</span>
+  <span class="badge badge-kw-2 keyword-filter-btn mr-1" data-filter="3d representation">3D Representation</span>
+  <span class="badge badge-kw-3 keyword-filter-btn mr-1" data-filter="bayesian learning">Bayesian Learning</span>
+  <span class="badge badge-kw-4 keyword-filter-btn mr-1" data-filter="vision language model">Vision Language Model</span>
+  <span class="badge badge-kw-5 keyword-filter-btn mr-1" data-filter="robot navigation">Robot Navigation</span>
+  <span class="badge badge-kw-6 keyword-filter-btn mr-1" data-filter="3d perception">3D Perception</span>
+  <span class="badge badge-kw-7 keyword-filter-btn mr-1" data-filter="embedded systems">Embedded Systems</span>
+  <span class="badge badge-kw-8 keyword-filter-btn mr-1" data-filter="gaussian process">Gaussian Process</span>
+  <span class="badge badge-kw-9 keyword-filter-btn mr-1" data-filter="scene representation">Scene Representation</span>
+  <span class="badge badge-kw-10 keyword-filter-btn mr-1" data-filter="loop closing">Loop Closing</span>
+  <span class="badge badge-kw-11 keyword-filter-btn mr-1" data-filter="place recognition">Place Recognition</span>
+  <span class="badge badge-kw-13 keyword-filter-btn mr-1" data-filter="slam">SLAM</span>
+</div>
+
+<div class="publications">
+  {% bibliography --group_by year --group_order descending --query @*[selected=true]* %}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterBtns = document.querySelectorAll('.keyword-filter-btn');
+  const publications = document.querySelectorAll('.publications .bibliography > li');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      const filter = this.getAttribute('data-filter');
+
+      // Update active button
+      filterBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      // Filter publications
+      publications.forEach(pub => {
+        if (filter === 'all') {
+          pub.style.display = '';
+        } else {
+          const keywords = pub.querySelectorAll('.keyword-filter');
+          let hasKeyword = false;
+          keywords.forEach(keyword => {
+            if (keyword.getAttribute('data-keyword') === filter) {
+              hasKeyword = true;
+            }
+          });
+          pub.style.display = hasKeyword ? '' : 'none';
+        }
+      });
+    });
+  });
+});
+</script>

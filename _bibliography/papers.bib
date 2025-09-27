@@ -1,0 +1,101 @@
+---
+---
+### 2025
+
+@article{lee2025lamp,
+  abbr={RA-L},
+  title={{LAMP}: Implicit Language Map for Robot Navigation},
+  author={Lee, Sibaek and Yu, Hyeonwoo and Kim, Giseop and Choi, Sunwook},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  year={2025},
+  selected={true},
+  preview={lamp.png},
+  abstract={Recent advances in vision-language models have made zero-shot navigation feasible, enabling robots to interpret and follow natural language instructions without requiring labeling. However, existing methods that explicitly store language vectors in grid or node-based maps struggle to scale to large environments due to excessive memory requirements and limited resolution for fine-grained planning. We introduce LAMP (Language Map), a novel neural language field-based navigation framework that learns a continuous, language-driven map and directly leverages it for fine-grained path generation. Unlike prior approaches, our method encodes language features as an implicit neural field rather than storing them explicitly at every location. By combining this implicit representation with a sparse graph, LAMP supports efficient coarse path planning and then performs gradient-based optimization in the learned field to refine poses near the goal. Our two-stage pipeline of coarse graph search followed by language-driven, gradient-guided optimization is the first application of an implicit language map for precise path generation. This refinement is particularly effective at selecting goal regions not directly observed by leveraging semantic similarities in the learned feature space. To further enhance robustness, we adopt a Bayesian framework that models embedding uncertainty via the von Mises–Fisher distribution, thereby improving generalization to unobserved regions. To scale to large environments, LAMP employs a graph sampling strategy that prioritizes spatial coverage and embedding confidence, retaining only the most informative nodes and substantially reducing computational overhead. Our experimental results, both in NVIDIA Isaac Sim and on a real multi-floor building, demonstrate that LAMP outperforms existing explicit methods in both memory efficiency and fine-grained goal-reaching accuracy, opening new possibilities for scalable, language-driven robot navigation.},
+  pdf={https://minjae-lulu.github.io/},
+  website={https://lab-of-ai-and-robotics.github.io/LAMP/},
+  keyword={Vision Language Model, Robot Navigation, Scene Representation, Embedded Systems}
+}
+
+@article{lee2025efficient,
+  abbr={Preprint},
+  title={Efficient 3D Perception on Embedded Systems via Interpolation-Free Tri-Plane Lifting and Volume Fusion},
+  author={Lee, Sibaek and Yeon, Jiung and Yu, Hyeonwoo},
+  journal={arXiv preprint arXiv:2509.14641},
+  year={2025},
+  selected={true},
+  preview={e3dp.png},
+  abstract={Dense 3D convolutions provide high accuracy for perception but are too computationally expensive for real-time robotic systems. Existing tri-plane methods rely on 2D image features with interpolation, point-wise queries, and implicit MLPs, which makes them computationally heavy and unsuitable for embedded 3D inference. As an alternative, we propose a novel interpolation-free tri-plane lifting and volumetric fusion framework, that directly projects 3D voxels into plane features and reconstructs a feature volume through broadcast and summation. This shifts nonlinearity to 2D convolutions, reducing complexity while remaining fully parallelizable. To capture global context, we add a low-resolution volumetric branch fused with the lifted features through a lightweight integration layer, yielding a design that is both efficient and end-to-end GPU–accelerated. To validate the effectiveness of the proposed method, we conduct experiments on classification, completion, segmentation, and detection, and we map the trade-off between efficiency and accuracy across tasks. Results show that classification and completion retain or improve accuracy, while segmentation and detection trade modest drops in accuracy for significant computational savings. On-device benchmarks on an NVIDIA Jetson Orin nano confirm robust real-time throughput, demonstrating the suitability of the approach for embedded robotic perception.},
+  arXiv={2509.14641},
+  code={https://github.com/Lab-of-AI-and-Robotics/E3D-Perception},
+  keyword={3D Perception, Embedded Systems}
+}
+
+@article{kang2025spatial,
+  abbr={RA-L},
+  title={Spatial Coordinate Transformation for 3D Neural Implicit Mapping},
+  author={Kang, Kyeongsu and Ha, Seongbo and Lee, Sibaek and Yu, Hyeonwoo},
+  journal={IEEE Robotics and Automation Letters},
+  year={2025},
+  publisher={IEEE},
+  selected={true},
+  preview={gp_nerf.png},
+  abstract={Implicit Neural Representation (INR)-based SLAM has a critical issue where all keyframes must be stored in memory for post-training whenever a remapping is needed due to the neural network's weights themselves representing the map. To address this, previous INR-based SLAM proposed methods to modify INR-based maps without changing the neural network's weights. However, these approaches suffer from low memory efficiency and increased space complexity. In this paper, we introduce a remapping method for INR-based maps that does not require post-training the neural network's weights and needed low space cost. The problem of function modification, such as updating a map defined as a neural network function, can be viewed as transforming the function’s domain. Leveraging function domain transformation, we propose a method to update INR-based maps by identifying the transformation function between the post-optimization and pre-optimization domains. Additionally, to prevent cases where the transformation between the post-optimization and pre-optimization domains does not form a one-to-many relationship, we introduce a temporal domain and propose a method to find the spatial coordinate transformation function accordingly.  Evaluations in INR-based techniques demonstrate that our proposed method effectively update to maps while requiring significantly less memory compared to existing remapping approaches.},
+  pdf={https://ieeexplore.ieee.org/document/11106682},
+  code={https://github.com/Lab-of-AI-and-Robotics/SCT_NIM},
+  keyword={NeRF, 3D Representation, Gaussian Process}
+}
+
+
+
+@article{lee2025bayesian,
+  abbr={RA-L},
+  title={Bayesian NeRF: Quantifying Uncertainty With Volume Density for Neural Implicit Fields},
+  author={Lee, Sibaek and Kang, Kyeongsu and Ha, Seongbo and Yu, Hyeonwoo},
+  journal={IEEE Robotics and Automation Letters},
+  year={2025},
+  publisher={IEEE},
+  selected={true},
+  preview={bayesian.png},
+  abstract={We present a Bayesian Neural Radiance Field (NeRF), which explicitly quantifies uncertainty in the volume density by modeling uncertainty in the occupancy, without the need for additional networks, making it particularly suited for challenging observations and uncontrolled image environments. NeRF diverges from traditional geometric methods by providing an enriched scene representation, rendering color and density in 3D space from various viewpoints. However, NeRF encounters limitations in addressing uncertainties solely through geometric structure information, leading to inaccuracies when interpreting scenes with insufficient real-world observations. While previous efforts have relied on auxiliary networks, we propose a series of formulation extensions to NeRF that manage uncertainties in density, both color and density, and occupancy, all without the need for additional networks. In experiments, we show that our method significantly enhances performance on RGB and depth images in the comprehensive dataset.  Given that uncertainty modeling aligns well with the inherently uncertain environments of Simultaneous Localization and Mapping (SLAM), we applied our approach to SLAM systems and observed notable improvements in mapping and tracking performance. These results confirm the effectiveness of our Bayesian NeRF approach in quantifying uncertainty based on geometric structure, making it a robust solution for challenging real-world scenarios.},
+  arXiv={2404.06727},
+  pdf={https://ieeexplore.ieee.org/document/10829678},
+  video={https://www.youtube.com/watch?v=wp5jW4S_jqo},
+  code={https://github.com/Lab-of-AI-and-Robotics/Bayesian_NeRF},
+  keyword={NeRF, 3D Representation, Bayesian Learning}
+}
+
+
+### 2024
+
+@inproceedings{lee2024just,
+  abbr={IROS},
+  title={Just flip: Flipped observation generation and optimization for neural radiance fields to cover unobserved view},
+  author={Lee, Sibaek and Kang, Kyeongsu and Yu, Hyeonwoo},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={2704--2711},
+  year={2024},
+  organization={IEEE},
+  selected={true},
+  preview={justflip.gif},
+  abstract={With the advent of Neural Radiance Field (NeRF), representing 3D scenes through multiple observations has shown significant improvements. Since this cutting-edge technique can obtain high-resolution renderings by interpolating dense 3D environments, various approaches have been proposed to apply NeRF for the spatial understanding of robot perception. However, previous works are challenging to represent unobserved scenes or views on the unexplored robot trajectory, as these works do not take into account 3D reconstruction without observation information. To overcome this problem, we propose a method to generate flipped observation in order to cover absent observation for unexplored robot trajectory. Our approach involves a data augmentation technique for 3D reconstruction using NeRF, by flipping observed images and estimating the 6DOF poses of the flipped cameras. Furthermore, to ensure the NeRF model operates robustly in general scenarios, we also propose a training method that adjusts the flipped pose and considers the uncertainty in flipped images accordingly. Our technique does not utilize an additional network, making it simple and fast, thus ensuring its suitability for robotic applications where real-time performance is crucial.},
+  arXiv={2303.06335},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10802266},
+  video={https://www.youtube.com/watch?v=ClNg3GSr0jw},
+  code={https://github.com/Lab-of-AI-and-Robotics/Just_Flip},
+  keyword={NeRF, 3D Representation, Bayesian Learning}
+}
+
+### 2023
+
+@article{kang2023necessity,
+  abbr={Preprint},
+  title={Necessity feature correspondence estimation for large-scale global place recognition and relocalization},
+  author={Kang, Kyeongsu and Lee, Minjae and Yu, Hyeonwoo},
+  journal={arXiv preprint arXiv:2303.06308},
+  year={2023},
+  selected={true},
+  preview={nfc.png},
+  abstract={To find the accurate global 6-DoF transform by feature matching approach, various end-to-end architectures have been proposed. However, existing methods have typically not considered the geometrical false correspondence of features, resulting in unnecessary features being involved in global place recognition and relocalization. In this paper, we introduce a robust correspondence estimation method by removing unnecessary features and highlighting necessary features simultaneously. To emphasize necessary features while disregarding unnecessary ones, we leverage the geometric correlation between two scenes represented in 3D LiDAR point clouds. nWe thus introduce the correspondence auxiliary loss that finds key correlations based on the point align algorithm, achieving end-to-end training of the proposed networks with robust correspondence estimation. Considering the ground with numerous plane patches can disrupt correspondence estimation by acting as an outlier, we propose a preprocessing step aimed at mitigating the influence of dominant plane patches from the perspective of addressing negative correspondences. Evaluation results on the dynamic urban driving dataset show that our proposed method can improve the performances of both global place recognition and relocalization tasks, highlighting the significance of estimating robust feature correspondence in these processes.},
+  arXiv={2303.06308},
+  keyword={Loop Closing, Place Recognition, SLAM}
+}

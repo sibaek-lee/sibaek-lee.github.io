@@ -1,0 +1,98 @@
+{
+  "basics": {
+    "name": "Sibaek Lee",
+    "label": "PhD Student",
+    "image": "",
+    "email": "lmjbsj1@gmail.com",
+    "summary": "I am a PhD student in <a href='https://robot.skku.edu/robot_en/index.do'>Intelligent Robotics</a> at Sungkyunkwan University advised by Prof. <a href='https://bogus2000.github.io/'>Hyeonwoo yu</a> where I am a member of SKKU Artificial Intelligence and Robotics (<a href='https://sites.google.com/view/hyeonwooyu/'>Lair</a>)."
+  },
+  "work": [
+    {
+      "name": "",
+      "position": "Naver Labs Research Intern",
+      "url": "https://www.naverlabs.com/",
+      "startDate": "2024-08-01",
+      "endDate": "2025-02-01",
+      "summary": "Vision Group research 3D Vision & Deep Learning internship.",
+      "highlights": [
+        "Published work at RA-L 2025.",
+        "Supervisor: <a href='https://scholar.google.com/citations?user=9mKOLX8AAAAJ&hl=ko'>Giseop Kim</a>, Sunwook Choi"
+      ]
+    },
+    {
+      "name": "",
+      "position": "University of Illinois Urbana-Champaign Global Program Participant",
+      "url": "https://illinois.edu/",
+      "startDate": "2022-01-01",
+      "endDate": "2022-02-01",
+      "summary": "Global Program Participant in AI & Big Data at UIUC."
+    },
+    {
+      "name": "",
+      "position": "Applied Cryptography Lab Research Intern in UNIST",
+      "url": "https://www.unist.ac.kr/",
+      "startDate": "2021-06-01",
+      "endDate": "2022-07-01",
+      "summary": "Research internship in Applied Cryptography Lab.",
+      "highlights": [
+        "Supervisor: <a href='https://scholar.google.com/citations?user=KxbEfJcAAAAJ&hl=ko'>Miran Kim</a>"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sungkyunkwan University (SKKU) - Lair Lab",
+      "location": "South Korea",
+      "url": "https://www.skku.edu/",
+      "area": "Intelligent Robotics",
+      "studyType": "Integrated M.S./Ph.D.",
+      "startDate": "2024-03-01",
+      "endDate": "present",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Ulsan National Institute of Science and Technology (UNIST) - Lair Lab",
+      "location": "South Korea",
+      "url": "https://www.unist.ac.kr/",
+      "area": "Artificial Intelligence",
+      "studyType": "Integrated M.S./Ph.D.",
+      "startDate": "2023-03-01",
+      "endDate": "2024-02-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Ulsan National Institute of Science and Technology (UNIST)",
+      "location": "South Korea",
+      "url": "https://www.unist.ac.kr/",
+      "area": "Computer Science (major), Mechanical Engineering (minor)",
+      "studyType": "Bachelor",
+      "startDate": "2016-03-01",
+      "endDate": "2023-02-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Paper Award (LG AI Research prize)",
+      "date": "2025-08-08",
+      "awarder": "Korean Artificial Intelligence Association (CKAIA)",
+      "url": "",
+      "summary": ""
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": "Native",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Professional",
+      "icon": ""
+    }
+  ]
+}
