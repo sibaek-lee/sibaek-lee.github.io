@@ -4,13 +4,13 @@
     "label": "PhD Student",
     "image": "",
     "email": "lmjbsj1@gmail.com",
-    "summary": "I am a PhD student in <a href='https://robot.skku.edu/robot_en/index.do'>Intelligent Robotics</a> at Sungkyunkwan University advised by Prof. <a href='https://bogus2000.github.io/'>Hyeonwoo yu</a> where I am a member of SKKU Artificial Intelligence and Robotics (<a href='https://sites.google.com/view/hyeonwooyu/'>Lair</a>)."
+    "summary": "I am a PhD student in <a href='https://robot.skku.edu/robot_en/index.do'>Intelligent Robotics</a> at Sungkyunkwan University advised by Prof. <a href='https://bogus2000.github.io/'>Hyeonwoo yu</a> where I am a member of the Lab of Artificial Intelligence and Robotics (<a href='https://sites.google.com/view/hyeonwooyu/'>Lair</a>)."
   },
   "work": [
     {
       "name": "",
       "position": "Naver Labs Research Intern",
-      "url": "https://www.naverlabs.com/",
+      "url": "https://www.naverlabs.com/en/",
       "startDate": "2024-08-01",
       "endDate": "2025-02-01",
       "summary": "Vision Group research 3D Vision & Deep Learning internship.",
@@ -81,6 +81,38 @@
       "awarder": "Korean Artificial Intelligence Association (CKAIA)",
       "url": "",
       "summary": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI Star Fellowship Support Program",
+      "startDate": "2025",
+      "endDate": "2029",
+      "summary": "Supported by IITP grant funded by the Korea government (MSIT)"
+    },
+    {
+      "title": "AI Semiconductor Innovation Center",
+      "startDate": "2025",
+      "endDate": "2030",
+      "summary": "Supported by IITP grant funded by the Korea government (MSIT)"
+    },
+    {
+      "title": "Development of Robotic Technology for Grasping and Manipulating Challenging Thin Non-Rigid Objects in Unstructured Environments Multi-Modal 3D Perception & Task Planning Learned from Demonstrations and Manuals for Battery Pack Recycling",
+      "startDate": "2024",
+      "endDate": "2027",
+      "summary": "Funded by the Ministry of Trade, Industry and Energy"
+    },
+    {
+      "title": "Development and Demonstration of Unmanned Autonomous Operation Technology Based on Field-Use Visualization Sensors and 6-Axis Rotational Angle Sensors",
+      "startDate": "2024",
+      "endDate": "2028",
+      "summary": "Funded by the Ministry of Trade, Industry and Energy"
+    },
+    {
+      "title": "Spatial and Task Generalization Framework for Hardware Platform-Agnostic Embodied AI",
+      "startDate": "2024",
+      "endDate": "2027",
+      "summary": "Funded by the National Research Foundation of Korea"
     }
   ],
   "languages": [
