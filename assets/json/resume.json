@@ -74,15 +74,6 @@
       "courses": []
     }
   ],
-  "awards": [
-    {
-      "title": "Best Paper Award (LG AI Research prize)",
-      "date": "2025-08-08",
-      "awarder": "Korean Artificial Intelligence Association (CKAIA)",
-      "url": "",
-      "summary": ""
-    }
-  ],
   "projects": [
     {
       "title": "AI Star Fellowship Support Program",
@@ -113,6 +104,15 @@
       "startDate": "2024",
       "endDate": "2027",
       "summary": "Funded by the National Research Foundation of Korea"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Paper Award (LG AI Research prize)",
+      "date": "2025-08-08",
+      "awarder": "Korean Artificial Intelligence Association (CKAIA)",
+      "url": "",
+      "summary": ""
     }
   ],
   "languages": [
