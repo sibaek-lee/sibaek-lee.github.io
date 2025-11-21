@@ -1,0 +1,52 @@
+# - title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Sibaek Lee
+    - name: Date of Birth
+      value: 15th July 1997
+    - name: Languages
+      value: Korean, English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD Student
+      institution: Your University, Location
+      year: 2020 - Present
+      description:
+        - Your PhD research description
+        - Research focus areas
+    - title: Master's Degree
+      institution: Your University, Location
+      year: 2018 - 2020
+      description:
+        - Master's thesis topic
+        - Relevant coursework
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: Your Institution
+      year: 2020 - Present
+      description:
+        - Research in robotics and AI
+        - Published papers in top-tier conferences
+    - title: Graduate Research Assistant
+      institution: Your Previous Institution
+      year: 2018 - 2020
+      description:
+        - Worked on computer vision projects
+        - Developed neural network models
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - Your Award 1
+        - Your Award 2
+    - year: 2023
+      items:
+        - Your Award 3

@@ -1,0 +1,53 @@
+// 20 Unique Keyword Colors - with higher CSS specificity
+.badge.badge-kw-1 { background-color: #007bff !important; color: white !important; } // Blue
+.badge.badge-kw-2 { background-color: #28a745 !important; color: white !important; } // Green
+.badge.badge-kw-3 { background-color: #17a2b8 !important; color: white !important; } // Cyan
+.badge.badge-kw-4 { background-color: #ffc107 !important; color: #212529 !important; } // Yellow
+.badge.badge-kw-5 { background-color: #dc3545 !important; color: white !important; } // Red
+.badge.badge-kw-6 { background-color: #6c757d !important; color: white !important; } // Gray
+.badge.badge-kw-7 { background-color: #fd7e14 !important; color: white !important; } // Orange
+.badge.badge-kw-8 { background-color: #6f42c1 !important; color: white !important; } // Purple
+.badge.badge-kw-9 { background-color: #e83e8c !important; color: white !important; } // Pink
+.badge.badge-kw-10 { background-color: #20c997 !important; color: white !important; } // Teal
+.badge.badge-kw-11 { background-color: #495057 !important; color: white !important; } // Dark Gray
+.badge.badge-kw-12 { background-color: #8B4513 !important; color: white !important; } // Saddle Brown
+.badge.badge-kw-13 { background-color: #2E8B57 !important; color: white !important; } // Sea Green
+.badge.badge-kw-14 { background-color: #FF6347 !important; color: white !important; } // Tomato
+.badge.badge-kw-15 { background-color: #4682B4 !important; color: white !important; } // Steel Blue
+.badge.badge-kw-16 { background-color: #9370DB !important; color: white !important; } // Medium Purple
+.badge.badge-kw-17 { background-color: #32CD32 !important; color: #212529 !important; } // Lime Green
+.badge.badge-kw-18 { background-color: #FF1493 !important; color: white !important; } // Deep Pink
+.badge.badge-kw-19 { background-color: #00CED1 !important; color: white !important; } // Dark Turquoise
+.badge.badge-kw-20 { background-color: #FF8C00 !important; color: white !important; } // Dark Orange
+
+.keyword-filter-btn {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.85em;
+  padding: 0.4em 0.8em;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+
+  &:hover {
+    opacity: 0.8;
+    transform: translateY(-1px);
+  }
+
+  &.active {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-weight: bold;
+  }
+}
+
+.keywords {
+  .badge {
+    font-size: 0.75em;
+    padding: 0.3em 0.6em;
+    margin-bottom: 0.25rem;
+    display: inline-block;
+  }
+}
+
+.keyword-filters {
+  line-height: 1.8;
+}
