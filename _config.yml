@@ -9,9 +9,9 @@ last_name: Lee
 contact_note: >
   If you are interested in my research, feel free to contact me :)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Sibaek Lee (이시백) - AI Researcher specializing in computer vision and robotics. Research interests include artificial intelligence, machine learning, and computer vision.
 footer_text:
-keywords: sibaek lee, 이시백, ai researcher, robotics researcher, artificial intelligence, machine learning # add your own keywords or leave empty
+keywords: sibaek lee, 이시백, sibaek, lee, ai researcher, robotics researcher, artificial intelligence, machine learning, computer vision, deep learning, PhD student # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 url: https://sibaek-lee.github.io # the base hostname & protocol for your site
@@ -59,7 +59,7 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
@@ -227,7 +227,7 @@ sass:
 
 jekyll-minifier:
   compress_javascript: false # set to false since we are using terser as the js minifier
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+  exclude: ["assets/js/search/*.js"]
 
 # -----------------------------------------------------------------------------
 # Terser
