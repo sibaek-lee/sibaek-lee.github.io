@@ -2,6 +2,22 @@
 ---
 ### 2025
 
+@article{lee2025efficient,
+  abbr={Preprint},
+  title={LEGO-SLAM: Language-Embedded Gaussian Optimization SLAM},
+  author={Lee, Sibaek and Ha, Seongbo and Kang, Kyeongsu and Choi, Joonyeol and Tak, Seungjun and Yu, Hyeonwoo},
+  journal={arXiv preprint arXiv:2511.16144},
+  year={2025},
+  selected={true},
+  preview={lego_slam.png},
+  abstract={Recent advances in 3D Gaussian Splatting (3DGS) have enabled Simultaneous Localization and Mapping (SLAM) systems to build photorealistic maps. However, these maps lack the open-vocabulary semantic understanding required for advanced robotic interaction. Integrating language features into SLAM remains a significant challenge, as storing high-dimensional features demands excessive memory and rendering overhead, while existing methods with static models lack adaptability for novel environments. To address these limitations, we propose LEGO-SLAM (Language-Embedded Gaussian Optimization SLAM), the first framework to achieve real-time, open-vocabulary mapping within a 3DGS-based SLAM system. At the core of our method is a scene-adaptive encoder-decoder that distills high-dimensional language embeddings into a compact 16-dimensional feature space. This design reduces the memory per Gaussian and accelerates rendering, enabling real-time performance. Unlike static approaches, our encoder adapts online to unseen scenes. These compact features also enable a language-guided pruning strategy that identifies semantic redundancy, reducing the map's Gaussian count by over 60\% while maintaining rendering quality. Furthermore, we introduce a language-based loop detection approach that reuses these mapping features, eliminating the need for a separate detection model. Extensive experiments demonstrate that LEGO-SLAM achieves competitive mapping quality and tracking accuracy, all while providing open-vocabulary capabilities at 15 FPS.},
+  arXiv={2511.16144},
+  code={https://github.com/Lab-of-AI-and-Robotics/LEGO-SLAM},
+  website={https://lab-of-ai-and-robotics.github.io/LEGO-SLAM/},
+  keyword={slam, 3D Perception, loop closing}
+}
+
+
 @article{lee2025lamp,
   abbr={RA-L},
   title={{LAMP}: Implicit Language Map for Robot Navigation},
