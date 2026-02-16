@@ -9,7 +9,7 @@ last_name: Lee
 contact_note: >
   If you are interested in my research, feel free to contact me :)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Sibaek Lee (이시백) - AI Researcher specializing in computer vision and robotics. Research interests include artificial intelligence, machine learning, and computer vision.
+  Sibaek Lee (이시백) - Researcher in computer vision and robotics
 footer_text:
 keywords: sibaek lee, 이시백, sibaek, lee, ai researcher, robotics researcher, artificial intelligence, machine learning, computer vision, deep learning, PhD student # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

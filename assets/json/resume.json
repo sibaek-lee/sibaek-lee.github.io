@@ -76,6 +76,12 @@
   ],
   "projects": [
     {
+      "title": "Physical AI–Based Integrated Autonomous Navigation for AMRs",
+      "startDate": "2026",
+      "endDate": "2026",
+      "summary": "industry-academia collaboration project funded by Samsung Electronics GTR"
+    },
+    {
       "title": "Development of a Multimodal Humanoid Foundation AI Model for Real-World Manipulation and Locomotion",
       "startDate": "2025",
       "endDate": "2027",
