@@ -2,6 +2,21 @@
 ---
 ### 2026
 
+@inproceedings{lee2026efficient,
+  abbr={IROS 2026},
+  title={Efficient 3D Perception on Embedded Systems via Interpolation-Free Tri-Plane Lifting and Volume Fusion},
+  author={Lee, Sibaek and Yeon, Jiung and Yu, Hyeonwoo},
+  booktitle={2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2026},
+  organization={IEEE},
+  selected={true},
+  preview={e3dp.png},
+  abstract={Dense 3D convolutions provide high accuracy for perception but are too computationally expensive for real-time robotic systems. Existing tri-plane methods rely on 2D image features with interpolation, point-wise queries, and implicit MLPs, which makes them computationally heavy and unsuitable for embedded 3D inference. As an alternative, we propose a novel interpolation-free tri-plane lifting and volumetric fusion framework, that directly projects 3D voxels into plane features and reconstructs a feature volume through broadcast and summation. This shifts nonlinearity to 2D convolutions, reducing complexity while remaining fully parallelizable. To capture global context, we add a low-resolution volumetric branch fused with the lifted features through a lightweight integration layer, yielding a design that is both efficient and end-to-end GPU–accelerated. To validate the effectiveness of the proposed method, we conduct experiments on classification, completion, segmentation, and detection, and we map the trade-off between efficiency and accuracy across tasks. Results show that classification and completion retain or improve accuracy, while segmentation and detection trade modest drops in accuracy for significant computational savings. On-device benchmarks on an NVIDIA Jetson Orin nano confirm robust real-time throughput, demonstrating the suitability of the approach for embedded robotic perception.},
+  arXiv={2509.14641},
+  code={https://github.com/Lab-of-AI-and-Robotics/E3D-Perception},
+  keyword={3D Perception, Embedded Systems}
+}
+
 @article{ha2026langgs,
   abbr={Preprint},
   title={LangGS-SLAM: Real-Time Language-Feature Gaussian Splatting SLAM},
@@ -17,7 +32,7 @@
 
 ### 2025
 
-@article{lee2025efficient,
+@article{lee2025lego,
   abbr={Preprint},
   title={LEGO-SLAM: Language-Embedded Gaussian Optimization SLAM},
   author={Lee, Sibaek and Ha, Seongbo and Kang, Kyeongsu and Choi, Joonyeol and Tak, Seungjun and Yu, Hyeonwoo},
@@ -48,19 +63,6 @@
   keyword={Vision Language Model, Robot Navigation, Scene Representation, Embedded Systems}
 }
 
-@article{lee2025efficient,
-  abbr={Preprint},
-  title={Efficient 3D Perception on Embedded Systems via Interpolation-Free Tri-Plane Lifting and Volume Fusion},
-  author={Lee, Sibaek and Yeon, Jiung and Yu, Hyeonwoo},
-  journal={arXiv preprint arXiv:2509.14641},
-  year={2025},
-  selected={true},
-  preview={e3dp.png},
-  abstract={Dense 3D convolutions provide high accuracy for perception but are too computationally expensive for real-time robotic systems. Existing tri-plane methods rely on 2D image features with interpolation, point-wise queries, and implicit MLPs, which makes them computationally heavy and unsuitable for embedded 3D inference. As an alternative, we propose a novel interpolation-free tri-plane lifting and volumetric fusion framework, that directly projects 3D voxels into plane features and reconstructs a feature volume through broadcast and summation. This shifts nonlinearity to 2D convolutions, reducing complexity while remaining fully parallelizable. To capture global context, we add a low-resolution volumetric branch fused with the lifted features through a lightweight integration layer, yielding a design that is both efficient and end-to-end GPU–accelerated. To validate the effectiveness of the proposed method, we conduct experiments on classification, completion, segmentation, and detection, and we map the trade-off between efficiency and accuracy across tasks. Results show that classification and completion retain or improve accuracy, while segmentation and detection trade modest drops in accuracy for significant computational savings. On-device benchmarks on an NVIDIA Jetson Orin nano confirm robust real-time throughput, demonstrating the suitability of the approach for embedded robotic perception.},
-  arXiv={2509.14641},
-  code={https://github.com/Lab-of-AI-and-Robotics/E3D-Perception},
-  keyword={3D Perception, Embedded Systems}
-}
 
 @article{kang2025spatial,
   abbr={RA-L},
