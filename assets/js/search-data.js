@@ -49,6 +49,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-lego-slam-language-embedded-gaussian-optimization-slam-has-been-released-on-arxiv",
           title: '🎉 Our paper “LEGO-SLAM: Language-Embedded Gaussian Optimization SLAM” has been released on arXiv!...',
           description: "",
+          section: "News",},{id: "news-our-paper-trilift-interpolation-free-tri-plane-lifting-for-efficient-3d-perception-on-embedded-systems-is-accepted-to-iros-2026",
+          title: '🎉 Our paper “TriLift: Interpolation-Free Tri-Plane Lifting for Efficient 3D Perception on Embedded...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
