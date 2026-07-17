@@ -76,6 +76,18 @@
   ],
   "projects": [
     {
+      "title": "Artificial Intelligence Innovation Graduate School (Sungkyunkwan University)",
+      "startDate": "2026",
+      "endDate": "2031",
+      "summary": "supported by IITP funded by the Korea government (MSIT)"
+    },
+    {
+      "title": "Training of Experts in AI Product Application Technologies for Advanced Industries",
+      "startDate": "2026",
+      "endDate": "2031",
+      "summary": "supported by KIAT funded by the Ministry of Trade, Industry and Energy"
+    },
+    {
       "title": "Physical AI–Based Integrated Autonomous Navigation for AMRs",
       "startDate": "2026",
       "endDate": "2026",
