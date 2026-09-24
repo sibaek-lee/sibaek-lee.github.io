@@ -2,6 +2,21 @@
 ---
 ### 2026
 
+@article{kang2026bayesiangs,
+  abbr={RA-L},
+  title={{BayesianGS-SLAM}: Uncertainty-Aware Neural Rendering SLAM via Probabilistic Formulation},
+  author={Kang, Kyeongsu and Ha, Seongbo and Lee, Sibaek and Yu, Hyeonwoo},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  year={2026},
+  selected={true},
+  preview={bayesian_gs_slam.png},
+  abstract={Neural-rendering-based SLAM relies on rendered RGB-D residuals for camera tracking and map optimization, but the reliability of these predictions can vary substantially because of sensor noise, limited observation coverage, and incomplete map representations. Without an explicit reliability estimate, unreliable residuals may adversely affect pose optimization, while frames already well explained by the current map may trigger redundant mapping updates. In this paper, we present BayesianGS-SLAM, an uncertainty-aware 3D Gaussian Splatting SLAM framework that estimates predictive color and depth uncertainty during mapping and consistently reuses it across the SLAM pipeline. Our tractable probabilistic formulation combines a sensor-noise uncertainty component with an opacity-induced map-representation component propagated through the rendering process. The resulting predictive uncertainty is used to augment mapping, normalize tracking residuals through a robust pose objective, and evaluate incoming frames using a predictive-surprise-based keyframe criterion. Unlike prior uncertainty-aware neural-rendering SLAM methods that primarily consider color uncertainty or use uncertainty only during mapping, our framework estimates predictive uncertainty for both color and depth and integrates it into mapping, tracking, and keyframe selection. Evaluations on real-world RGB-D datasets demonstrate substantially improved depth uncertainty-error ranking compared with existing uncertainty-aware SLAM methods. Moreover, the proposed keyframe-selection strategy reduces the number of selected keyframes and mapping calls while maintaining competitive tracking and rendering performance.},
+  arXiv={2609.24140},
+  code={https://github.com/Lab-of-AI-and-Robotics/BayesianGS-SLAM},
+  video={https://www.youtube.com/watch?v=6AhWxyfViuA},
+  keyword={SLAM, Bayesian Learning, 3D Perception}
+}
+
 @inproceedings{lee2026efficient,
   abbr={IROS 2026},
   title={TriLift: Interpolation-Free Tri-Plane Lifting for Efficient 3D Perception on Embedded Systems},
@@ -60,6 +75,7 @@
   arXiv={2602.11862},
   pdf={https://ieeexplore.ieee.org/abstract/document/11197901},
   website={https://lab-of-ai-and-robotics.github.io/LAMP/},
+  video={https://www.youtube.com/watch?v=SWdm7wHuiCo},
   keyword={Vision Language Model, Robot Navigation, Scene Representation, Embedded Systems}
 }
 
