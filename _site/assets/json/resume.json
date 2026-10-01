@@ -16,12 +16,12 @@
       "summary": "Vision Group research 3D Vision & Deep Learning internship.",
       "highlights": [
         "Published work at RA-L 2025.",
-        "Supervisor: <a href='https://scholar.google.com/citations?user=9mKOLX8AAAAJ&hl=ko'>Giseop Kim</a>, Sunwook Choi"
+        "Supervisor: <a href='https://scholar.google.com/citations?user=9mKOLX8AAAAJ&hl=ko'>Giseop Kim</a>, <a href='https://scholar.google.com/citations?user=R3W7dTsAAAAJ&hl=ko'>Sunwook Choi</a>"
       ]
     },
     {
       "name": "",
-      "position": "University of Illinois Urbana-Champaign Global Program Participant",
+      "position": "University of Illinois Urbana-Champaign (UIUC) Global Program Participant",
       "url": "https://illinois.edu/",
       "startDate": "2022-01-01",
       "endDate": "2022-02-01",
@@ -75,6 +75,36 @@
     }
   ],
   "projects": [
+    {
+      "title": "Artificial Intelligence Innovation Graduate School (Sungkyunkwan University)",
+      "startDate": "2026",
+      "endDate": "2031",
+      "summary": "supported by IITP funded by the Korea government (MSIT)"
+    },
+    {
+      "title": "Training of Experts in AI Product Application Technologies for Advanced Industries",
+      "startDate": "2026",
+      "endDate": "2031",
+      "summary": "supported by KIAT funded by the Ministry of Trade, Industry and Energy"
+    },
+    {
+      "title": "Physical AI–Based Integrated Autonomous Navigation for AMRs",
+      "startDate": "2026",
+      "endDate": "2026",
+      "summary": "industry-academia collaboration project funded by Samsung Electronics GTR"
+    },
+    {
+      "title": "Development of a Multimodal Humanoid Foundation AI Model for Real-World Manipulation and Locomotion",
+      "startDate": "2025",
+      "endDate": "2027",
+      "summary": "supported by IITP grant funded by the Korea government (MSIT)"
+    },
+    {
+      "title": "Expansion of the  Humanoid AX project applicable to manufacturing sites and daily  life",
+      "startDate": "2025",
+      "endDate": "2028",
+      "summary": "supported by KEIT funded by the Ministry of Trade, Industry and Energy"
+    },
     {
       "title": "AI Star Fellowship Support Program",
       "startDate": "2025",
