@@ -52,6 +52,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-trilift-interpolation-free-tri-plane-lifting-for-efficient-3d-perception-on-embedded-systems-is-accepted-to-iros-2026",
           title: '🎉 Our paper “TriLift: Interpolation-Free Tri-Plane Lifting for Efficient 3D Perception on Embedded...',
           description: "",
+          section: "News",},{id: "news-our-paper-bayesiangs-slam-uncertainty-aware-neural-rendering-slam-via-probabilistic-formulation-is-accepted-to-ra-l-2026",
+          title: '🎉 Our paper “BayesianGS-SLAM: Uncertainty-Aware Neural Rendering SLAM via Probabilistic Formulation” is accepted...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',

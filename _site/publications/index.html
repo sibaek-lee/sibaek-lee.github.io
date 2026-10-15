@@ -333,6 +333,246 @@
 <div class="row">
   
     <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">Preprint</abbr>
+        
+      
+      
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+    
+    <img src="/assets/img/publication_preview/target_aware_langmap.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="target_aware_langmap.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="lee2026targetaware" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Training-Free Target-Aware Refinement of 3D Gaussian Language Map</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      <em>Sibaek
+            Lee</em>, Kyeongsu
+            Kang, Seongbo
+            Ha, Yewon
+            Jeon, Joonyeol
+            Choi, Daegeol
+            Ko, Jaehyuk
+            Hur, Taemin
+            Choi, Minsu
+            Kim, Hyungjoo
+            Ahn, Wonsok
+            Yoo, and Hyeonwoo
+            Yu
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>arXiv preprint</em>,  2026
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    
+      <!-- Keywords -->
+      <div class="keywords mt-2">
+        
+        
+        
+          
+          
+          
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+              
+              
+          <span class="badge badge-kw-6 mr-1 keyword-filter" data-keyword="3d perception">3D Perception</span>
+        
+          
+          
+          
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+              
+              
+          <span class="badge badge-kw-4 mr-1 keyword-filter" data-keyword="vision language model">Vision Language Model</span>
+        
+          
+          
+          
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+              
+              
+          <span class="badge badge-kw-5 mr-1 keyword-filter" data-keyword="robot navigation">Robot Navigation</span>
+        
+          
+          
+          
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+              
+              
+          <span class="badge badge-kw-9 mr-1 keyword-filter" data-keyword="scene representation">Scene Representation</span>
+        
+      </div>
+    
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <a href="https://github.com/Lab-of-AI-and-Robotics/target-aware-langmap" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+      
+      
+      
+      
+        <a href="https://lab-of-ai-and-robotics.github.io/target-aware-langmap/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Distilling vision-language features into 3D Gaussian Splatting yields a language map that can be queried with arbitrary text. In deployment, however, a small set of user-specified targets must be reliably located, which current distilled maps often miss, while open-vocabulary queryability for other words must remain intact. We propose a training-free, target-aware refinement of an already-distilled language map. Guided by a text-promptable segmenter, the visual embedding inside each detected target region is blended with the target text embedding, a convex combination whose coefficient sets the amount of injected prior, while non-target regions are left untouched. Injecting too much overwrites appearance cues and general queryability, so we seek, for each target, the smallest coefficient that still lets it win, and we obtain every coefficient in closed form, leaving no hyperparameters to tune. We further identify a failure mode of injection in language-goal localization. Text embeddings share a common component, and injecting them makes the standard cosine read-out query-agnostic, which a centering step in the read-out removes. Across three benchmarks, the refinement consistently improves open-vocabulary segmentation, roughly doubling the base mIoU on Replica, and localizes language goals more reliably than the base map. It also transfers as a plug-in to off-the-shelf field-based and object-level language maps and supports a real-world demonstration in which a legged robot navigates to natural-language goals.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
           <abbr class="badge rounded w-100">RA-L</abbr>
         
       
@@ -2281,7 +2521,7 @@
   Lee. 
   
   
-    Last updated: September 24, 2026.
+    Last updated: October 15, 2026.
   
 
     </div>

@@ -76,6 +76,18 @@
   ],
   "projects": [
     {
+      "title": "Research and Development of SDF-Specialized Physical AI Foundation Models for Heterogeneous Device Collaboration",
+      "startDate": "2026",
+      "endDate": "2030",
+      "summary": "supported by NIPA funded by the Korea government (MSIT)"
+    },
+    {
+      "title": "Real-Time 3D Reconstruction and Localization for Humanoid Robots and Low-Profile AMRs",
+      "startDate": "2026",
+      "endDate": "2027",
+      "summary": "industry-academia collaboration project funded by LG Electronics HS"
+    },
+    {
       "title": "Artificial Intelligence Innovation Graduate School (Sungkyunkwan University)",
       "startDate": "2026",
       "endDate": "2031",
