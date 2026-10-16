@@ -30,12 +30,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi!😀 I am a PhD student in [Intelligent Robotics](https://robot.skku.edu/robot_en/index.do) at Sungkyunkwan University advised by Prof. [Hyeonwoo yu](https://bogus2000.github.io/) where I am a member of the Lab of Artificial Intelligence and Robotics ([Lair](https://sites.google.com/view/hyeonwooyu/)). 
+Hi!😀 I am a PhD student in [Intelligent Robotics](https://robot.skku.edu/robot_en/index.do) at Sungkyunkwan University advised by Prof. [Hyeonwoo Yu](https://bogus2000.github.io/) where I am a member of the Lab of Artificial Intelligence and Robotics ([Lair](https://sites.google.com/view/hyeonwooyu/)). 
 
-As a researcher, I hope my research contributes positively to society and I believe that artificial intelligence is a step towards achieving that goal. My research focuses on using deep learning techniques to enhance robots' spatial perception. By improving their ability to perceive their environment accurately, we can enable robots to make better decisions, perform more complex tasks, and ultimately help people in various ways. <br> <br> 
+My research focuses on 3D scene representations that let robots perceive, understand, and act in the physical world. I build neural maps that can be queried with language and deployed on real robots, and I am currently extending them toward physics-aware, interactive 3D maps. <br> <br> 
 
 
 
 #### Research Interests
-- **🧠 Deep Learning:** 3D Vision, Vision Language Model, Generative model, Bayesian learning
-- **🤖 Robotics:** Simultaneous Localization and Mapping (SLAM), Robot Perception and navigation
+- **🧠 3D Vision:** Neural Scene Representations, Language-Grounded and Interactive 3D Maps, Uncertainty Estimation
+- **🤖 Robotics:** SLAM, Robot Perception, Language-Goal Navigation
